@@ -1,0 +1,212 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f6f2fa;
+  color: #2c2c2c;
+  margin: 0;
+  text-align: center;
+}
+
+/* Headers */
+.header {
+  background: linear-gradient(rgba(106, 59, 164, 0.5), rgba(106, 59, 164, 0.5)),
+              url(../images/reboot50homepagehero.jpg) center/cover no-repeat;
+  padding: 100px 20px;
+  color: white;
+}
+
+h1 {
+  font-size: 4.5em;
+  margin-bottom: 0.1em;
+}
+
+.header p {
+  font-size: 1.5em;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.inner-header {
+  padding: 60px 20px;
+}
+
+.inner-header .logo-img {
+  max-width: 250px;
+  margin-bottom: 10px;
+}
+
+.inner-title {
+  font-size: 3em;
+}
+
+/* Menu */
+.nav {
+  background-color: #6a3ba4;
+  padding: 15px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: #b388eb;
+}
+
+/* Sections */
+.section {
+  padding: 40px 20px;
+}
+
+
+.section p {
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+/* CTA Section */
+.cta {
+  background-color: #b388eb;
+  color: white;
+  padding: 40px 20px;
+}
+
+.cta a {
+  display: inline-block;
+  background-color: #6a3ba4;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.cta a:hover {
+  background-color: #8e5fc9;
+}
+
+/* Footer */
+.footer {
+  background-color: #6a3ba4;
+  color: white;
+  padding: 20px;
+  font-size: 0.9em;
+}
+
+/* Chip Image */
+.chip-img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 0;
+}
+
+/* Review Images */
+.review-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+/* Contact Form */
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-form label {
+  font-weight: bold;
+  color: #6a3ba4;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  margin-top: 10px;
+  background-color: #6a3ba4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #8e5fc9;
+}
+
+/* Logo */
+.logo-img {
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Tables */
+.reg-table {
+  width: 100%;
+  max-width: 900px;
+  margin: 30px auto 0 auto;
+  border-collapse: collapse;
+  font-size: 1em;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+.reg-table th {
+  background-color: #e0d4f2;
+  color: #452d72;
+  text-align: left;
+  padding: 15px;
+  font-weight: bold;
+  border-top: 1px solid #ccc;
+}
+
+.reg-table td {
+  background-color: #ffffff;
+  text-align: left;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Button Section */
+.button {
+  padding: 40px 20px;
+  text-align: center;
+  margin: 20px auto 40px auto;
+}
+
+.button p {
+  font-size: 1.4em;
+  color: #452d72;
+}
+
+.button a {
+  display: inline-block;
+  background-color: #6a3ba4;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.button a:hover {
+  background-color: #8e5fc9;
+}
